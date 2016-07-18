@@ -1,0 +1,23 @@
+{
+  "name": "redis-copy",
+  "version": "0.0.1",
+  "description": "Straightforward copy keys and values between redis servers",
+  "main": "script.es6.js",
+  "scripts": {
+    "start": "node bin.js"
+  },
+  "keywords": [
+    "redis",
+    "copy",
+    "migrate"
+  ],
+  "author": "Nick Delitski",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.10.4",
+    "babel-preset-node5": "^11.1.0",
+    "bluebird": "^3.4.1",
+    "lodash": "^4.13.1",
+    "redis": "^2.6.2"
+  }
+}
